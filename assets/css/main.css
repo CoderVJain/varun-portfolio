@@ -3058,6 +3058,7 @@ p {
     left: 50%;
     z-index: 1;
     transform: translate(-50%, -50%);
+    
   }
   .textslide-solution .textsslide-hoverbox .hover-circle {
     width: 160px;
@@ -3066,6 +3067,7 @@ p {
   .mycustom-marque {
     padding: 16px 1px;
     transform: rotate(0deg);
+    
   }
   .mycustom-marque .comm .slach,
   .mycustom-marque .comm .cmn-textslide {
@@ -3073,8 +3075,10 @@ p {
     font-weight: 600;
   }
   .mycustom-marque2 {
-    transform: rotate(0deg);
+  
     padding: 16px 1px;
+    transform: rotate(0deg);
+    
   }
   .mycustom-marque2 .comm {
     animation: scrollre 60s linear infinite;
@@ -3085,8 +3089,11 @@ p {
     font-weight: 600;
   }
   .version-two-marque {
+    
     transform: translateY(0px);
   }
+
+  
 }
 @media (max-width: 991px) {
   .textslide-solution {
@@ -4669,3 +4676,11 @@ p {
     opacity: 0;
   }
 }/*# sourceMappingURL=main.css.map */
+
+
+@media (max-width:1199px) {
+  .textslide-solution .textsslide-hoverbox {
+    
+    display: none !important; 
+  }
+}
