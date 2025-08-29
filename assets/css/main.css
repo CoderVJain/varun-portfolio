@@ -1283,7 +1283,7 @@ p {
 }
 
 .home-pra {
-  width: 50%;
+  width: 100%;
 }
 
 .pwhite {
@@ -2524,7 +2524,7 @@ p {
   object-fit: contain;
 }
 .banner-herowrapper .banner-middle .half-content p {
-  max-width: 430px;
+  /* max-width: 430px; */
   margin-top: -10px;
 }
 .banner-herowrapper .banner-middle .banner-counter {
@@ -2671,7 +2671,7 @@ p {
     display: none;
   }
   .banner-herowrapper .banner-middle .half-content p {
-    max-width: 430px;
+    /* max-width: 430px; */
     margin-top: -10px;
   }
   .banner-herowrapper .banner-middle .banner-counter {
