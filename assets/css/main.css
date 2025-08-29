@@ -4697,3 +4697,7 @@ p {
 }/*# sourceMappingURL=main.css.map */
 
 
+.banner-herowrapper .hero-right-wrap img {
+    width: 100%;
+    object-fit: contain;
+  }
