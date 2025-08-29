@@ -2997,12 +2997,20 @@ p {
   overflow: hidden;
 }
 .textslide-solution .textsslide-hoverbox {
+  display: flex;
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: 1;
   transform: translate(-50%, -50%);
 }
+
+.textslide-solution .cmn-textslide {
+  position: relative;
+  z-index: 5;
+    pointer-events: none; /* Make "Follow Me" text unclickable on large screens */
+}
+
 .textslide-solution .textsslide-hoverbox .hover-circle {
   width: 200px;
   border: unset;
@@ -3092,6 +3100,17 @@ p {
     
     transform: translateY(0px);
   }
+
+  .textslide-solution .textsslide-hoverbox {
+    display: none !important; 
+  }
+
+  .textslide-solution .cmn-textslide {
+    
+        pointer-events: auto;
+         position: relative;
+    z-index: 5; /* Make "Follow Me" text clickable on small screens */
+    }
 
   
 }
@@ -4678,9 +4697,3 @@ p {
 }/*# sourceMappingURL=main.css.map */
 
 
-@media (max-width:1199px) {
-  .textslide-solution .textsslide-hoverbox {
-    
-    display: none !important; 
-  }
-}
