@@ -496,6 +496,8 @@ p {
   .pt-120 {
     padding-top: 100px;
   }
+
+
 }
 @media (max-width: 991px) {
   .pt-120 {
@@ -510,6 +512,7 @@ p {
   .pb-120 {
     padding-bottom: 100px;
   }
+
 }
 @media (max-width: 991px) {
   .pb-120 {
@@ -4297,6 +4300,12 @@ p {
   .exprience-item .box .expri-cont .counters {
     font-size: 24px;
   }
+
+  .section-title .section-sub::before {
+    
+    left: 10px;
+    
+}
 }
 
 .footer-section .talk-text {
