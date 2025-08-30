@@ -101,9 +101,6 @@
 			spaceBetween: 24,
 			loop: true,
 			direction: "horizontal",
-			autoplay: {
-				delay: 2000,
-			},
 			navigation: {
 				nextEl: ".mcustom__next2",
 				prevEl: ".mcustom__prev2",
@@ -119,11 +116,11 @@
 				},
 				575: {
 					slidesPerView: 1,
-					spaceBetween: 10,
+					
 				},
 				991: {
 					slidesPerView: 1,
-					spaceBetween: 10,
+					
 				},
 				1200: {
 					slidesPerView: 1,

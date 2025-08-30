@@ -2447,6 +2447,7 @@ p {
   gap: 24px;
   max-width: 1810px;
   margin: 0 auto;
+  
 }
 .banner-herowrapper .header-section-unique {
   min-width: 290px;
@@ -2818,8 +2819,8 @@ p {
 }
 .about-section-v01 .about-content-v1 .about-content-inner .boxes .right-comp p {
   margin-bottom: 42px;
-  line-height: 26px;
-  font-size: 16px;
+  line-height: 35px;
+  font-size: 20px;
 }
 @media (max-width: 1199px) {
   .about-section-v01 .edu-expri-head h3 {
